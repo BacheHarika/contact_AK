@@ -1,0 +1,80 @@
+.underline {
+  height: 4px;
+  width: 50px;
+  background-color: #1bbd64;
+  margin: 0 auto 30px;
+}
+
+.card-text {
+  color: lightgreen;
+}
+
+.team-card-container{
+  width: 400px;
+  height:250px;
+  border: 3px solid lightgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin-left: 72px;
+  margin-top: 40px;
+}
+
+.team-member-image{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.team-member-name{
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+.team-role{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+.slider{
+ background-color: transparent;
+ height: 350px;
+ width: 95%;
+ margin-left: 10px;
+
+}
+.slick-next:before {
+  color: #1bbd64;
+  height: 30px;
+  width: 50px;
+}
+.slick-prev:before {
+  color: #1bbd64;
+  height: 30px;
+  width: 50px;
+}
+
+.team-card-container {
+  transition: transform 0.3s ease; 
+}
+.team-card-container:hover {
+  transform: scale(1.05); 
+}
+.slick-prev::before,
+.slick-next::before {
+  font-size: 35px;
+}
+.slick-next{
+  margin-right: 30px;
+}
+.slick-prev{
+  margin-left: 30px;
+}
+
+
